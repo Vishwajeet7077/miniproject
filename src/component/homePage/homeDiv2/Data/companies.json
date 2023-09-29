@@ -1,0 +1,25 @@
+{
+    "companies": [
+      {
+        "name": "ABC Services",
+        "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+      },
+      {
+        "name": "XYZ Solutions",
+        "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+      },
+      {
+        "name": "123 Tech",
+        "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+      },
+      {
+        "name": "Quick Support",
+        "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+      },
+      {
+        "name": "Global Innovations",
+        "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+      }
+    ]
+  }
+  
