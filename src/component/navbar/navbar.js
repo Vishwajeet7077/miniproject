@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -20,11 +21,13 @@ function Navbar() {
     };
   }, [setIsSmallScreen]);
   
+
+  
   return (
     <div>
       {/* Sidebar */}
       <div
-        className={`fixed h-full w-64 bg-blue-500 mt-19 text-white transition-transform transform ${
+        className={`fixed h-full w-64  bg-blue-500 mt-14 text-white transition-transform transform ${
           isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
         } sm:translate-x-0 ${ isSmallScreen ? 'visible' : 'invisible'} `}
       >
@@ -68,7 +71,7 @@ function Navbar() {
                   <a href="#" className="text-white hover:text-gray-300">Services</a>
                 </li>
                 <li>
-                  <a href="#" className="text-white hover:text-gray-300">Contact</a>
+                  <Link className="text-white hover:text-gray-300" to="/Login" >Login </Link>
                 </li>
               </ul>
             )}

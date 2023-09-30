@@ -1,27 +1,42 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import tatalogo from './tata.jpg';
-import CompanyData from './Data/companies.json'
+import './homeDiv2.css';
 function Div2() {
-    const [data , setData] =useState([]);
-    
+
+    // Local Port Json Server
+    const companyData = 'http://localhost:1000/companies';
+
+    const [data, setData] = useState([]);
+
+
+    useEffect(() => {
+        axios.get(companyData)
+            .then((response) => {
+                setData(response.data);
+            })
+            .catch((error) => {
+                console.error('Error fetching data:', error.message);
+            });
+    }, []);
+
     return (
-        <div className="h-76 border-2 border-slate-400 m-3 flex flex-col">
-            <h3 className="h-16 m-4 ml-16 font-bold text-3xl">Companies</h3>
-            <div className="w-full h-36 flex place-content-evenly">
-                <div className="flex flex-col text-center text-xl font-bold">
-                    <div className="w-24 border-2 border-blue-400 h-24">
-                        <img src={tatalogo} className="h-full" ></img>
-                    <p>Tata</p>
-                    </div>
-                </div>
-                <div className="flex flex-col text-center text-xl font-bold">
-                    <div className="w-24 border-2 border-blue-400 h-24">
-                        <img src={tatalogo} className="h-full"></img>
-                    </div>
-                    <p>Tata</p>
+        <div className="max-h-max border-2 border-slate-400 m-3 p-4 flex flex-col relative rounded-lg">
+            <div className="company-container">
+                <h3 className="company-title">Companies</h3>
+                <div className="flex flex-wrap justify-center items-center max-h-max ">
+                    {data.map((comp) => (
+                        <div key={comp.id} className="company-card">
+                            <img src={tatalogo} className="company-logo" alt="Company Logo" />
+                            <p className="company-name">{comp.name}</p>
+                        </div>
+                    ))}
+
                 </div>
             </div>
+
         </div>
+
     )
 }
 

@@ -1,0 +1,322 @@
+{
+  "companies": [ 
+      {
+          "id": 1,
+          "name": "ABC Services",
+          "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+        },
+        {
+          "id": 2,
+          "name": "XYZ Solutions",
+          "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+        },
+        {
+          "id": 3,
+          "name": "123 Tech",
+          "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Quick Support",
+          "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Global Innovations",
+          "logoUrl": "../src/component/homePage/homeDiv2/tata.jpg"
+        }
+  ],
+
+
+  "services": [
+      {
+          "id": "Healthcare",
+          "image_link": "#"
+        },
+        {
+          "id": "Technology",
+          "image_link": "#"
+        },
+        {
+          "id": "Education",
+          "image_link": "#"
+        },
+        {
+          "id": "Hospitality",
+          "image_link": "#"
+        },
+        {
+          "id": "Finance",
+          "image_link": "#"
+        },
+        {
+          "id": "Automotive",
+          "image_link": "#"
+        },
+        {
+          "id": "Legal",
+          "image_link": "#"
+        },
+        {
+          "id": "Construction",
+          "image_link": "#"
+        },
+        {
+          "id": "Entertainment",
+          "image_link": "#"
+        }
+   ],
+  "servicesSubtype": [
+      { "Healthcare": [
+          {
+            "id": "Nutritional Counseling",
+            "image_link": "#"
+          },
+          {
+            "id": "Check-ups",
+            "image_link": "#"
+          },
+          {
+            "id": "Specialty Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Therapy",
+            "image_link": "#"
+          },
+          {
+            "id": "Laboratory Testing",
+            "image_link": "#"
+          },
+          {
+            "id": "Pharmaceutical Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Home Nursing Care",
+            "image_link": "#"
+          },
+          {
+            "id": "Telehealth and Telemedicine",
+            "image_link": "#"
+          },
+          {
+            "id": "Medical Transportation",
+            "image_link": "#"
+          }
+        ],
+        "Technology": [
+          {
+            "id": "Software Development",
+            "image_link": "#"
+          },
+          {
+            "id": "IT Consulting",
+            "image_link": "#"
+          },
+          {
+            "id": "Cybersecurity Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Cloud Computing",
+            "image_link": "#"
+          },
+          {
+            "id": "Data Analytics",
+            "image_link": "#"
+          },
+          {
+            "id": "Web Development",
+            "image_link": "#"
+          },
+          {
+            "id": "Mobile App Development",
+            "image_link": "#"
+          }
+        ],
+        "Education": [
+          {
+            "id": "Tutoring",
+            "image_link": "#"
+          },
+          {
+            "id": "Language Classes",
+            "image_link": "#"
+          },
+          {
+            "id": "Online Courses",
+            "image_link": "#"
+          },
+          {
+            "id": "Educational Consultation",
+            "image_link": "#"
+          },
+          {
+            "id": "STEM Programs",
+            "image_link": "#"
+          },
+          {
+            "id": "Art and Music Lessons",
+            "image_link": "#"
+          }
+        ],
+        "Hospitality": [
+          {
+            "id": "Accommodation",
+            "image_link": "#"
+          },
+          {
+            "id": "Food Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Event Planning",
+            "image_link": "#"
+          },
+          {
+            "id": "Tourism Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Travel Agencies",
+            "image_link": "#"
+          },
+          {
+            "id": "Catering",
+            "image_link": "#"
+          }
+        ],
+        "Finance": [
+          {
+            "id": "Investment Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Financial Planning",
+            "image_link": "#"
+          },
+          {
+            "id": "Banking Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Tax Consultation",
+            "image_link": "#"
+          },
+          {
+            "id": "Insurance Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Retirement Planning",
+            "image_link": "#"
+          }
+        ],
+        "Automotive": [
+          {
+            "id": "Repair and Maintenance",
+            "image_link": "#"
+          },
+          {
+            "id": "Auto Body Repair",
+            "image_link": "#"
+          },
+          {
+            "id": "Engine Tune-up",
+            "image_link": "#"
+          },
+          {
+            "id": "Car Rental",
+            "image_link": "#"
+          },
+          {
+            "id": "Auto Detailing",
+            "image_link": "#"
+          },
+          {
+            "id": "Towing Services",
+            "image_link": "#"
+          }
+        ],
+        "Legal": [
+          {
+            "id": "Legal Consultation",
+            "image_link": "#"
+          },
+          {
+            "id": "Family Law",
+            "image_link": "#"
+          },
+          {
+            "id": "Criminal Defense",
+            "image_link": "#"
+          },
+          {
+            "id": "Estate Planning",
+            "image_link": "#"
+          },
+          {
+            "id": "Corporate Law",
+            "image_link": "#"
+          },
+          {
+            "id": "Intellectual Property",
+            "image_link": "#"
+          }
+        ],
+        "Construction": [
+          {
+            "id": "General Construction",
+            "image_link": "#"
+          },
+          {
+            "id": "Residential Construction",
+            "image_link": "#"
+          },
+          {
+            "id": "Commercial Construction",
+            "image_link": "#"
+          },
+          {
+            "id": "Renovation Services",
+            "image_link": "#"
+          },
+          {
+            "id": "Architectural Design",
+            "image_link": "#"
+          },
+          {
+            "id": "Electrical and Plumbing",
+            "image_link": "#"
+          }
+        ],
+        "Entertainment": [
+          {
+            "id": "Event Planning",
+            "image_link": "#"
+          },
+          {
+            "id": "Wedding Planning",
+            "image_link": "#"
+          },
+          {
+            "id": "Concerts and Performances",
+            "image_link": "#"
+          },
+          {
+            "id": "Film Production",
+            "image_link": "#"
+          },
+          {
+            "id": "Party Supplies",
+            "image_link": "#"
+          },
+          {
+            "id": "Amusement Parks",
+            "image_link": "#"
+          }
+        ]
+      }
+   ]
+}
